@@ -1,6 +1,6 @@
 # Metodos de los caracteres 
 
-c1 = "Hola soy Juan Yañez"
+c1 = "Hola, soy, Juan, Yañez"
 c2 = "Eres muy wapo"
 
 # La estructura es {Dato}.[Metodo()]
@@ -22,4 +22,8 @@ res = len(c2) # len({cadena}) Contara cuantos caracteres se encuantran dentro de
 
 res = c1.startswith("Hola") # Evalua si la primera palabara de la cadena de texto coincidie con lo que le pedimos
 res = c1.endswith("Yañez") # Evalua si la ultima palbara de la cadena de texto coincidie con lo que le pedimos
+
+res = c2.replace("Eres","Soy") # Cambia el valor de una cadena por otra
+
+res = c1.split(",")
 print(res)
